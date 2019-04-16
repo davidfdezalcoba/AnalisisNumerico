@@ -18,7 +18,7 @@ elseif size(u,1) == 2
 else
     figure('Name', 'Componentes')
     for i = 1:3
-        subplot(2,1,i);
+        subplot(3,1,i);
         switch i
             case 1
                 plot(t, u(i,:), 'r');
@@ -27,12 +27,12 @@ else
             case 3
                 plot(t, u(i,:), 'b');
         end
-        title('Componente ' + i);
-        legend('u' + i);
+        title(strcat('Componente ', num2str(i)));
+        legend(strcat('u ', num2str(i)));
     end
     pause(1)
     figure('Name', 'Trayectoria')
-    plot(u(1,:),u(2,:),u(3,:), 'r');
+    plot3(u(1,:),u(2,:),u(3,:), 'r');
     title('Trayectoria');
     legend('Trayectoria');
 end
