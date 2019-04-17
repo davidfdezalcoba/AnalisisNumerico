@@ -4,7 +4,7 @@ par = [];
 
 % Practicas 1-8
 
-% fun = @funcvanderpol; x0 = [0.1;0.2]; tinic=0; tfin=10; N=1000; par = [1,-0.2]
+fun = @funcvanderpol; x0 = [0.1;0.2]; tinic=0; tfin=10; N=1000; par = [1,-0.2]
 % fun = @funcvanderpol; x0 = [-2;0]; tinic=0; tfin=10; N=1000; jac = @jacvanderpol; itmax = 100; par = [1,-0.2];
 % fun = @funcecrigida; x0 = 0; tinic = 0; tfin = pi/2; N = 25;
 % fun = @funcecrigida; x0 = 0; tinic = 0; tfin = pi/2; N = 40;
@@ -79,4 +79,5 @@ par = [];
 
 % Practica 12
 
-fun = @funcbelza; x0 = [0.25;0.75;0.25]; tinic=0; tfin=1; N=500; jac = @jacfuncbelza; itmax = 100; par=[2e4,8e-4,10000,0.75]
+% fun = @funcbelza; x0 = [0.25;0.75;0.25]; tinic=0; tfin=1; N=500; jac = @jacfuncbelza; itmax = 100; par=[2e4,8e-4,10000,0.75]
+
