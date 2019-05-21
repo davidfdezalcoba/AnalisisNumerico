@@ -83,7 +83,7 @@ par = [];
 
 % Practica 20
 
-% fun = @funcvanderpol; x0 = [0.1;0.2]; tinic=0; tfin=10; N=1000; fac=0.9; facmax=5; hmin=1e-5; hmax=(tfin-tinic)*0.1; h0=hmin; mono=@mieuler; orden=1; TOL=1e-5; par = [1,-0.2]
+fun = @funcvanderpol; x0 = [0.1;0.2]; tinic=0; tfin=10; N=1000; fac=0.9; facmax=5; hmin=1e-5; hmax=(tfin-tinic)*0.1; h0=hmin; mono=@mieuler; orden=1; TOL=1e-5; par = [1,-0.2]
 % fun = @func23_1; x0 = 1; tinic=0; tfin=2; N=1000; fac=0.9; facmax=5; hmin=1e-5; hmax=(tfin-tinic)*0.1; h0=hmin; mono=@mieuler; orden=1; TOL=1e-5;
 % fun = @func23_1; x0 = 1; tinic=0; tfin=2; N=1000; fac=0.9; facmax=5; hmin=1e-5; hmax=(tfin-tinic)*0.1; h0=hmin; mono=@mirk4; orden=4; TOL=1e-5;
 % fun = @func23_2; x0 = 1; tinic=0; tfin=2; N=1000; fac=0.9; facmax=5; hmin=1e-5; hmax=(tfin-tinic)*0.1; h0=hmin; mono=@mieuler; orden=1; TOL=1e-5;
